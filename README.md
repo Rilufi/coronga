@@ -39,7 +39,8 @@ Esse guia foi feito pensando em distribuições do Linux, mas existem paralelos 
 ### Dica extra
 
 Rodar um bot do próprio terminal do seu PC pode não ser a melhor maneira e não garante total automação (que normalmente é a meta quando se cria um bot), pense em colocá-lo em algum cloud server que tenha a função Task Schedule, como por exemplo: Heroku, Amazon, Digital-Ocean, Google, etc.
-Um bom que possui com um plano free que funciona para rodar scripts uma vez por dia é o https://www.pythonanywhere.com/
+
+Um bom que possui um plano free que funciona para rodar scripts uma vez por dia é o https://www.pythonanywhere.com/
 
 ### Agradecimentos
 
