@@ -22,7 +22,7 @@ Os requisitos necessários para rodar são o tweepy para acesso ao twitter e a b
 
 Para que o programa se conecte ao seu API do twitter, é necessário editar o arquivo credentials.py com as suas credenciais, se ainda não tem será necessário pedir uma developer account no site do Twitter e criar o app: https://developer.twitter.com/en/apply-for-access
 
-Para mudar informações sobre o coronavirus, siga as instruções em https://pypi.org/project/covid-19/ o bot está pronto para postar informaçes sobre casos confirmados, mortes e recuperados no Brasil.
+Para mudar informações sobre o coronavirus, siga as instruções em https://pypi.org/project/covid19-data/ o bot está pronto para postar informaçes sobre casos confirmados, mortes e recuperados no Brasil.
 
 Caso queira mudar as frases postadas ou o propósito do bot é só editar o resto (não se esqueça de liberar seu app para ter permissão de ler e postar, podendo até enviar DMs) 
 
@@ -46,4 +46,4 @@ Um bom que possui um plano free que funciona para rodar scripts uma vez por dia 
 
 ### Agradecimentos
 
-Universidade John Hopkins por liberar os dados https://systems.jhu.edu/ e https://github.com/CSSEGISandData/COVID-19 por disponibilizar o acesso facilitado.
+Universidade John Hopkins por liberar os dados https://systems.jhu.edu/ e https://github.com/binarynightowl por disponibilizar o acesso facilitado.
