@@ -9,7 +9,7 @@ Certifique-se de ter Python 3 e pip instalados em seu sistema. Você pode instal
 ```bash
 $ sudo apt-get install python3
 $ sudo apt-get install python3-pip
-
+```
 Instale os requisitos do projeto executando:
 
 ```bash
