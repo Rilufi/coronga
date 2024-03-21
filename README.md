@@ -14,7 +14,7 @@ Instale os requisitos do projeto executando:
 
 ```bash
 $ pip install -r requirements.txt
-
+```
 ### Configuração
 Credenciais do Twitter: Para conectar o bot à sua conta do Twitter, edite o arquivo credentials.py e insira suas credenciais. Se ainda não as possui, solicite uma conta de desenvolvedor no site do Twitter e crie um aplicativo.
 
@@ -26,7 +26,7 @@ Após configurar as credenciais e personalizar os dados conforme necessário, ex
 
 ```bash
 $ python corona_bot.py
-
+```
 ### Informações sobre o Clima de São Paulo
 O bot agora inclui funcionalidades para postar informações sobre o clima de São Paulo. As informações são obtidas da https://openweathermap.org que traz dados de temperatura atual de hora em hora e a https://wunderground.com com o histórico diário de temperatura.
 
