@@ -1,49 +1,43 @@
-# coronga_bot
-## Instalações necessárias
-### Instale o Python
+# Botoronga - Bot de Informações sobre COVID-19
 
-Esse programa roda em qualquer versão de Python 3
+## Descrição
+Este repositório unifica os projetos `coronga_bot` e `coronga2.0`, proporcionando uma solução abrangente para postagem de informações sobre COVID-19 e clima de São Paulo no Twitter.
 
-Para instalar o Python 3, digite em um terminal:
+## Instalação e Utilização
+Certifique-se de ter Python 3 e pip instalados em seu sistema. Você pode instalá-los utilizando os seguintes comandos:
 
+```bash
 $ sudo apt-get install python3
-
-### Instale o pip
-
-Para instalar o gerenciador de pacotes pip, digite em um terminal:
-
 $ sudo apt-get install python3-pip
 
-### Requisitos
+Instale os requisitos do projeto executando:
 
-Os requisitos necessários para rodar são o tweepy para acesso ao twitter e a biblioteca covid19_data para os dados sobre o coronavirus, ambos estão inclusos no requirements.txt, então podem ser instalados com pip install requirements.txt
+```bash
+$ pip install -r requirements.txt
 
-### Edições
+### Configuração
+Credenciais do Twitter: Para conectar o bot à sua conta do Twitter, edite o arquivo credentials.py e insira suas credenciais. Se ainda não as possui, solicite uma conta de desenvolvedor no site do Twitter e crie um aplicativo.
 
-Para que o programa se conecte ao seu API do twitter, é necessário editar o arquivo credentials.py com as suas credenciais, se ainda não tem será necessário pedir uma developer account no site do Twitter e criar o app: https://developer.twitter.com/en/apply-for-access
+### Personalização dos Dados
+Se desejar personalizar as informações sobre o COVID-19 ou modificar as mensagens postadas, consulte a documentação da biblioteca covid19_data aqui. O bot está pronto para publicar dados sobre casos confirmados, mortes e recuperados no Brasil.
 
-Para mudar informações sobre o coronavirus, siga as instruções em https://pypi.org/project/covid19-data/ o bot está pronto para postar informaçes sobre casos confirmados, mortes e recuperados no Brasil.
+## Execução
+Após configurar as credenciais e personalizar os dados conforme necessário, execute o bot utilizando o seguinte comando:
 
-Caso queira mudar as frases postadas ou o propósito do bot é só editar o resto (não se esqueça de liberar seu app para ter permissão de ler e postar, podendo até enviar DMs) 
+```bash
+$ python corona_bot.py
 
-### Executando
+### Informações sobre o Clima de São Paulo
+O bot agora inclui funcionalidades para postar informações sobre o clima de São Paulo. As informações são obtidas da https://openweathermap.org que traz dados de temperatura atual de hora em hora e a https://wunderground.com com o histórico diário de temperatura.
 
-Após isso, é só salvar a edição e executar o corona_bot.py na sua linha de comando com 
+### Suporte a Sistemas Operacionais
+Embora este guia seja voltado para distribuições Linux, o bot pode ser executado em outros sistemas operacionais com ajustes mínimos. O único requisito é ter Python e pip instalados.
 
-$ python corona_bot.py 
-
-;)
-
-### Sistemas Operacionais
-
-Esse guia foi feito pensando em distribuições do Linux, mas existem paralelos para outros sistemas, onde as únicas mudanças serão instalar o python e o pip, de resto funciona normal
-
-### Dica extra
-
-Rodar um bot do próprio terminal do seu PC pode não ser a melhor maneira e não garante total automação (que normalmente é a meta quando se cria um bot), pense em colocá-lo em algum cloud server que tenha a função Task Schedule, como por exemplo: Heroku, Amazon, Digital-Ocean, Google, etc.
-
-Um bom que possui um plano free que funciona para rodar scripts uma vez por dia é o https://www.pythonanywhere.com/
+### Hospedagem na Nuvem
+Consideramos hospedar o bot em um servidor na nuvem para garantir automação contínua. Serviços como Heroku, Amazon Web Services, DigitalOcean e Google Cloud oferecem opções adequadas. Recomendamos o PythonAnywhere, que oferece um plano gratuito adequado para executar scripts diariamente.
 
 ### Agradecimentos
+Agradecemos à Universidade Johns Hopkins por disponibilizar os dados em https://systems.jhu.edu/ e ao usuário binarynightowl por facilitar o acesso aos dados.
 
-Universidade John Hopkins por liberar os dados https://systems.jhu.edu/ e https://github.com/binarynightowl por disponibilizar o acesso facilitado.
+#### Nota
+As funcionalidades relacionadas ao jogo Tetris foram removidas do bot. No entanto, o repositório ainda está disponível no repositório [Tetris](https://github.com/Rilufi/twitris). O bot agora está postando informações sobre o clima de São Paulo em suas atualizações regulares e pode ser encontrado em [Botoronga](https://twitter.com/botoronga).
