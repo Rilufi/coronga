@@ -1,7 +1,7 @@
 # Botoronga - Bot de Informações sobre COVID-19
 
 ## Descrição
-Este repositório unifica os projetos `coronga_bot` e `coronga2.0`, proporcionando uma solução abrangente para postagem de informações sobre COVID-19 e clima de São Paulo no Twitter.
+Este repositório unifica os projetos `coronga_bot` e `coronga2.0`, proporcionando uma solução abrangente para postagem de informações sobre COVID-19 no Twitter.
 
 ## Instalação e Utilização
 Certifique-se de ter Python 3 e pip instalados em seu sistema. Você pode instalá-los utilizando os seguintes comandos:
