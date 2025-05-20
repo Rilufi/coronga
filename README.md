@@ -51,5 +51,4 @@ Dados incluem casos, mortes e vacinação.
 - *Criado por Yuri Abuchaim · [rilufi.github.io](https://rilufi.github.io)*
 - *Contato · 📧 [yuri.abuchaim@gmail.com](mailto:yuri.abuchaim@gmail.com)*
 
-📌 Projeto complementar com dados atualizados automaticamente:
-👉 github.com/rilufi/pythovid
+📌 Projeto complementar com dados atualizados automaticamente no seguinte [repositório](github.com/rilufi/pythovid).
